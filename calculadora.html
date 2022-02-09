@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+   <link rel="stylesheet" href="style.css"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body>
+    <div id="principal">
+        <h2>Calculadora</h2>
+        <p id="resultado"></p>
+        <table>
+        <tr class="botao">
+            <td><button class="cor" onclick="limpar('AC')">ac</button></td >
+            <td><button class="cor" onclick="inserir('()')">()</button></td>
+            <td><button class="cor" onclick="inserir('%')">%</button></td>
+            <td><button class="cor" onclick="inserir('/')">/</button></td>
+        </tr>
+    </div>
+        
+        <tr class="botao">
+            <td><button onclick="inserir('7')">7</button></td>
+            <td><button onclick="inserir('8')">8</button></td>
+            <td><button onclick="inserir('9')">9</button></td>
+            <td><button class="cor" onclick="inserir('*')">*</button></td>
+        </tr>
+        <tr class="botao">
+            <td><button onclick="inserir('4')">4</button></td>
+            <td><button onclick="inserir('5')">5</button></td>
+            <td><button onclick="inserir('6')">6</button></td>
+            <td><button class="cor" onclick="inserir('-')">-</button></td>
+        </tr>
+        <tr class="botao">
+            <td><button onclick="inserir('1')">1</button></td>
+            <td><button onclick="inserir('2')">2</button></td>
+            <td><button onclick="inserir('3')">3</button></td>
+            <td><button class="cor" onclick="inserir('+')">+</button></td>
+        </tr>
+        <tr class="botao">
+            <td><button onclick="inserir('0')">0</button></td>
+            <td><button onclick="inserir(',')">,</button></td>
+            <td><button onclick="back('c')">c</button></td>
+            <td><button id="re" onclick="calcular()">=</button></td>
+        </tr>
+    </table>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

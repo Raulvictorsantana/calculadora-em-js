@@ -1,0 +1,77 @@
+
+body{
+    background: rgb(82,82,187);
+    background: linear-gradient(90deg, rgb(67, 67, 218) 15%, rgba(4,123,196,1) 62%, rgba(4,130,201,1) 65%, #29bedb 100%);
+}
+#principal{
+ 
+    background-color: aqua;
+    width: 220px;
+    height: 410px;
+    margin: 0 auto;
+    background-color: rgb(29, 28, 28);
+    border-radius: 10px;
+
+    
+}
+h2{
+   padding-top: 10px;
+    text-align: center;
+    color: antiquewhite;
+
+}
+#resultado{
+    background-color: rgb(59, 57, 57);
+    padding: 1.5rem;
+    color: antiquewhite;
+    border-radius: 0 0 12px 12px;
+    font-size: 1rem;
+    text-align: end;
+}
+ table{
+     margin-top: 200px;
+     margin: 0 auto;
+    
+}
+.cor{
+    background-color: rgb(61, 134, 177);
+    color: black;
+        box-shadow: 2px 1px 2px 1px  rgb(131, 167, 199);;
+  }
+    
+.cor:hover{
+    background-color: rgb(118, 178, 212);
+    border-radius: 10px;
+}
+
+#re{
+    background-color: rgb(168, 188, 206);
+    color: black;
+    
+}
+#re:hover{
+    background-color: rgb(151, 187, 216);
+
+}
+button{
+    padding: 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(59, 57, 57);
+    box-shadow: 2px 1px 2px 1px  rgba(116, 113, 113, 0.77);
+    color: azure;
+    margin: 1px;
+    
+   
+}
+#re{
+    background-color: rgb(168, 188, 206);
+    color: black;
+    box-shadow: 2px 1px 2px 1px  rgb(37, 73, 104);;
+}
+button:hover{
+    background-color:rgb(88, 84, 84); 
+     border-radius: 15px;
+     transition: 0.8s;
+}
+
